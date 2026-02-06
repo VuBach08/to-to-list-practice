@@ -1,0 +1,41 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  min-height: 100vh;
+  font-family: "Red Hat Text", sans-serif;
+  background-color: hsl(var(--rose-50));
+}
+
+:root {
+  /* Colors */
+  --red: 14, 86%, 42%;
+  --green: 159, 69%, 38%;
+
+  --rose-50: 20, 50%, 98%;
+  --rose-100: 13, 31%, 94%;
+  --rose-300: 14, 25%, 72%;
+  --rose-400: 7, 20%, 60%;
+  --rose-500: 12, 20%, 44%;
+  --rose-900: 14, 65%, 9%;
+
+  /* Font sizes */
+  --fs-400: 1rem;
+
+  /* Font weights */
+  --fw-400: 400;
+  --fw-600: 600;
+  --fw-700: 700;
+
+  /* Spacing */
+  --gap-1: 0.5rem;
+  --gap-2: 1rem;
+  --gap-3: 1.5rem;
+  --gap-4: 2rem;
+}

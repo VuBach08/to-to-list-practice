@@ -1,0 +1,32 @@
+.cart {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  flex-direction: column;
+}
+
+.cart h2 {
+  color: hsl(var(--red));
+}
+
+.empty {
+  color: hsl(var(--rose-400));
+  font-size: 0.9rem;
+}
+
+.carbon {
+  padding: var(--gap-1);
+  background: hsl(var(--rose-50));
+  border-radius: 0.5rem;
+  font-size: 0.8rem;
+}
+
+.confirm {
+  width: 100%;
+  height: 3rem;
+  border: none;
+  border-radius: 999px;
+  background: hsl(var(--red));
+  color: white;
+  font-weight: var(--fw-600);
+}

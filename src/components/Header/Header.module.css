@@ -1,0 +1,6 @@
+.title {
+  font-size: 2rem;
+  font-weight: var(--fw-700);
+  color: hsl(var(--rose-900));
+  margin-bottom: var(--gap-3);
+}

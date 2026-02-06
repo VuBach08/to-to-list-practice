@@ -1,0 +1,10 @@
+.btn {
+  margin-top: 0.5rem;
+  width: 100%;
+  padding: 0.6rem;
+  border-radius: 999px;
+  border: 1px solid hsl(var(--rose-300));
+  background: white;
+  font-weight: var(--fw-600);
+  cursor: pointer;
+}
